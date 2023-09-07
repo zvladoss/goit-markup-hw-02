@@ -28,7 +28,7 @@
 body {
 font-family: "Roboto", sans-serif;  
 background-color: #ffffff;
-color: var(--slate);
+color: var(--navy-blue);
 font-size: 16px;
 font-style: normal;
 line-height: 1.5;
@@ -36,8 +36,7 @@ letter-spacing: 0.32px;
 }
 
 h2 {
-color: var(--navy-blue);
-text-align: center;
+  text-align: center;
 font-size: 36px;
 font-weight: 700;
 line-height: 1.11;
@@ -46,14 +45,15 @@ text-transform: capitalize;
 }
 
 h3 {
-color: var(--navy-blue);
 font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.4px;
 }
 
-
+p {
+color: var(--slate);
+}
 /**
   |============================
   | Reset
@@ -117,11 +117,11 @@ button {
 
 .logo {
   color: var(--IRIS, #4D5AE5);
-font-family: "Raleway", sans-serif;
+font-family: Raleway;
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
-line-height: 1.17; /* 116.667% */
+line-height: 1.16; /* 116.667% */
 letter-spacing: 0.54px;
 text-transform: uppercase;
 }
@@ -134,19 +134,13 @@ text-transform: uppercase;
   color: var(--navy-blue);
 font-weight: 500;
 }
-.nav-list a:hover, .adress a:hover {
+.nav-list a:hover, .adress-header a:hover {
   color: var(--ocean);
-}
-.nav-list a:focus, .adress a:focus {
-  color: var(--ocean);
-}
-.adress {
-  font-style: normal;
-}
-.adress a {
-  color: var(--slate);
 }
 
+.adress-header a {
+  color: var(--SLATE, #434455);
+}
 
 /**
   |============================
@@ -174,13 +168,10 @@ margin-bottom: 48px;
 }
 
 .order-button {
-  font-weight: 500;
   color: var(--white);
   border-radius: 4px;
 background: var(--IRIS, #4D5AE5);
 padding: 16px 32px;
-line-height: 1.5;
-letter-spacing: 0.04em;
 }
 
 
@@ -200,10 +191,6 @@ letter-spacing: 0.04em;
 .team-section {
   background: var(--cloud);
 }
-
-.team-list-item {
-  background-color: var(--white);
-} 
 /**
   |============================
   | Portfolio section
