@@ -28,15 +28,16 @@
 body {
 font-family: "Roboto", sans-serif;  
 background-color: #ffffff;
-color: var(--navy-blue);
+color: var(--slate);
 font-size: 16px;
+font-weight: 400;
 font-style: normal;
 line-height: 1.5;
 letter-spacing: 0.32px;
 }
 
 h2 {
-  text-align: center;
+text-align: center;
 font-size: 36px;
 font-weight: 700;
 line-height: 1.11;
@@ -51,9 +52,6 @@ line-height: 1.2;
 letter-spacing: 0.4px;
 }
 
-p {
-color: var(--slate);
-}
 /**
   |============================
   | Reset
@@ -82,12 +80,6 @@ a {
 button {
     cursor: pointer;
 }
-/**
-  |============================
-  | 
-  |============================
-*/
-
 
 /**
   |============================
@@ -102,12 +94,6 @@ button {
     list-style-type: none;
 
 }
-/**
-  |============================
-  | 
-  |============================
-*/
-
 
 /**
   |============================
@@ -134,12 +120,13 @@ text-transform: uppercase;
   color: var(--navy-blue);
 font-weight: 500;
 }
-.nav-list a:hover, .adress-header a:hover {
+.nav-list a:hover, .adress-header a:hover, 
+.nav-list a:focus, .adress-header a:focus {
   color: var(--ocean);
 }
 
 .adress-header a {
-  color: var(--SLATE, #434455);
+  color: var(--slate);
 }
 
 /**
@@ -168,10 +155,16 @@ margin-bottom: 48px;
 }
 
 .order-button {
-  color: var(--white);
-  border-radius: 4px;
+font-weight: 500;  
+color: var(--white);
+border-radius: 4px;
 background: var(--IRIS, #4D5AE5);
 padding: 16px 32px;
+letter-spacing: 0.64px;
+}
+
+.order-button:hover, .order-button:focus {
+  background-color: var(--ocean);
 }
 
 
@@ -190,6 +183,10 @@ padding: 16px 32px;
 
 .team-section {
   background: var(--cloud);
+}
+
+.team-list-item {
+  background-color: var(--white);
 }
 /**
   |============================
