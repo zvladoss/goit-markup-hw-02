@@ -16,7 +16,6 @@
     --white: #ffffff;
     --dairy: #FCFCFC;
     
-
     /**
       |============================
       | Others
@@ -27,9 +26,25 @@
 
 body {
 font-family: "Roboto", sans-serif;  
-background-color: #ffffff;
+background: #ffffff;
 color: var(--slate);
 font-size: 16px;
+}
+
+.features-title, .team-member, .portfolio-text {
+color: var(--NAVY-BLUE, #2E2F42);
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2; /* 120% */
+letter-spacing: 0.4px;
+}
+
+.team-title, .portfolio-title {
+  font-size: 36px;
+font-weight: 700;
+line-height: 1.11; /* 111.111% */
+letter-spacing: 0.72px;
+text-transform: capitalize;
 }
 
 /**
@@ -72,8 +87,7 @@ button {
 .portfolio-list,
 .team-list,
 .adress-list {
-    list-style-type: none;
-
+list-style-type: none;
 }
 
 /**
@@ -81,36 +95,107 @@ button {
   | Header section
   |============================
 */
+.logo {
+color: var(--IRIS, #4D5AE5);
+font-family: "Raleway", sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17; /* 116.667% */
+letter-spacing: 0.54px;
+text-transform: uppercase;
+}
+.logo-header {
+color: var(--NAVY-BLUE, #2E2F42);
+}
 
+.nav-list-link {
+color: var(--NAVY-BLUE, #2E2F42);
+font-weight: 500;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.32px;
+}
+
+.adress-header {
+font-style: normal;
+}
+
+.adress-list-link {
+color: var(--SLATE, #434455);
+line-height: 24px; /* 150% */
+letter-spacing: 0.32px;
+}
+
+.adress-list-link:hover,
+.adress-list-link:focus,
+ .nav-list-link:hover,
+.nav-list-link:focus {
+color: var(--OCEAN, #404BBF);
+}
 
 /**
   |============================
   | Hero section
   |============================
 */
+.hero-section {;
+  background: var(--navy-blue);
+  align-items: center;
+  text-align: center;
+}
 
+.hero-title {
+color: var(--WHITE, #FFF);
+text-align: center;
+font-size: 56px;
+font-weight: 700;
+line-height: 1.07; /* 107.143% */
+letter-spacing: 1.12px;
+width: 496px;
+}
 
-
+.order-button {
+color: var(--WHITE, #FFF);
+border-radius: 4px;
+background: var(--IRIS, #4D5AE5);
+}
 /**
   |============================
   | Features section
   |============================
 */
 
-
 /**
   |============================
   | Team section
   |============================
 */
+.team-section {
+background: var(--cornflower);
+}
 
+.team-list-item {
+background: var(--WHITE, #FFF);
+}
 /**
   |============================
   | Portfolio section
   |============================
 */
+
 /**
   |============================
   | Footer section
   |============================
 */
+.footer-section {
+background: var(--navy-blue);
+}
+
+.logo-footer {
+color: var(--CLOUD, #F4F4FD);
+}
+
+.footer-alt-text {  
+color: var(--CLOUD, #F4F4FD);
+width: 264px;
+}
