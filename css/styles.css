@@ -154,9 +154,17 @@ width: 496px;
 }
 
 .order-button {
+font-weight: 500;
 color: var(--WHITE, #FFF);
 border-radius: 4px;
 background: var(--IRIS, #4D5AE5);
+line-height: 1.5;
+letter-spacing: 0.04;
+}
+
+.order-button:hover,
+.order-button:focus {
+background: var(--ocean);
 }
 /**
   |============================
@@ -169,12 +177,22 @@ background: var(--IRIS, #4D5AE5);
   | Team section
   |============================
 */
+
+.team-title {
+color:var(--navy-blue);
+text-align: center;
+}
 .team-section {
-background: var(--cornflower);
+background: var(--cloud);
 }
 
 .team-list-item {
 background: var(--WHITE, #FFF);
+}
+
+.member-profession {
+line-height: 1.5;
+letter-spacing: 0.02em;
 }
 /**
   |============================
@@ -182,6 +200,12 @@ background: var(--WHITE, #FFF);
   |============================
 */
 
+.portfolio-title {
+color: var(--navy-blue);
+text-align: center;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
 /**
   |============================
   | Footer section
@@ -198,4 +222,6 @@ color: var(--CLOUD, #F4F4FD);
 .footer-alt-text {  
 color: var(--CLOUD, #F4F4FD);
 width: 264px;
+line-height: 1.5;
+letter-spacing: 0.02em;
 }
