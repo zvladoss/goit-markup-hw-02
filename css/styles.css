@@ -44,7 +44,6 @@ letter-spacing: 0.4px;
 font-weight: 700;
 line-height: 1.11; /* 111.111% */
 letter-spacing: 0.72px;
-text-transform: capitalize;
 }
 
 /**
@@ -90,7 +89,6 @@ font-size: 18px;
 font-weight: 700;
 line-height: 1.17; /* 116.667% */
 letter-spacing: 0.54px;
-text-transform: uppercase;
 }
 .logo-header {
 color: var(--NAVY-BLUE, #2E2F42);
@@ -199,10 +197,11 @@ letter-spacing: 0.02em;
 }
 
 .portfolio-text {
-line-height: 1.5;
+line-height: 1.2;
 }
 
 .portfolio-alt-text {
+line-height: 1.5;
 letter-spacing: 0.02em;
 }
 /**
