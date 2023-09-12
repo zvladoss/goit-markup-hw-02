@@ -139,7 +139,6 @@ color: var(--OCEAN, #404BBF);
 */
 .hero-section {
   background: var(--navy-blue);
-  align-items: center;
   text-align: center;
 }
 
@@ -150,16 +149,16 @@ font-size: 56px;
 font-weight: 700;
 line-height: 1.07; /* 107.143% */
 letter-spacing: 1.12px;
-width: 496px;
 }
 
 .order-button {
+font-family: "Roboto", sans-serif;
+font-size: 16px;
 font-weight: 500;
 color: var(--WHITE, #FFF);
-border-radius: 4px;
 background: var(--IRIS, #4D5AE5);
 line-height: 1.5;
-letter-spacing: 0.04;
+letter-spacing: 0.04em;
 }
 
 .order-button:hover,
@@ -172,6 +171,10 @@ background: var(--ocean);
   |============================
 */
 
+.features-text {
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
 /**
   |============================
   | Team section
@@ -206,6 +209,14 @@ text-align: center;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
+
+.portfolio-text {
+line-height: 1.5;
+}
+
+.portfolio-alt-text {
+letter-spacing: 0.02em;
+}
 /**
   |============================
   | Footer section
@@ -221,7 +232,6 @@ color: var(--CLOUD, #F4F4FD);
 
 .footer-alt-text {  
 color: var(--CLOUD, #F4F4FD);
-width: 264px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
