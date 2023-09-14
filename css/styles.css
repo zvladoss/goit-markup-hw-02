@@ -89,6 +89,7 @@ font-size: 18px;
 font-weight: 700;
 line-height: 1.17; /* 116.667% */
 letter-spacing: 0.54px;
+text-transform: uppercase;
 }
 .logo-header {
 color: var(--NAVY-BLUE, #2E2F42);
