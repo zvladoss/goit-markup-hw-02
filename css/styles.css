@@ -1,0 +1,271 @@
+:root {
+  /**
+  |============================
+  | Colors
+  |============================
+*/
+
+  --iris: #4D5AE5;
+  --ocean: #404BBF;
+  --navy-blue: #2E2F42;
+  --slate: #434455;
+  --light-slate: #8E8F99;
+  --cornflower: #E7E9FC;
+  --cloud: #F4F4FD;
+  --navy-blue-modal: rgba(46, 47, 66, 0.40);
+  --grey: rgba(46, 47, 66, 0.7);
+  --green: #31D0AA;
+  --white: #ffffff;
+  --dairy: #FCFCFC;
+             /* FONT'S */
+  --font-family: "Roboto", sans-serif;
+  --second-family: "Raleway", sans-serif;
+
+
+/**
+  |============================
+  | GRID'S
+  |============================
+*/
+
+  --indent-x: 24px;
+  --indent-mob: 72px;
+  --indent-y: ;
+  --list-items-sum: 3;
+  --tab-list-items-sum: 2;
+
+
+
+
+
+/**
+  |============================
+  | 
+  |============================
+*/
+}
+
+/**
+  |============================
+  | GRID-SET
+  |============================
+*/
+
+/* .grid-set {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  row-gap: var(--indent-mob);
+  column-gap: var(--indent-mob);
+  align-items: center;
+}
+
+.grid-item {
+  flex-basis: calc((var(--margin-indent)*(var(--list-items-sum) - 1)))/ var(--list-items-sum);
+} */
+
+
+/**
+  |============================
+  | Reset
+  |============================
+*/
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0;   
+}
+
+ul, ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+
+/**
+  |============================
+  | 
+  |============================
+*/
+
+
+body {
+  background: #ffffff;
+  color: var(--slate);
+  font-family: var(--font-family);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.features-list-title, .team-member-name, .portfolio-app-titles {
+  font-weight: 500;
+  font-size: 20px;
+  /* line-height: 24px; */ 
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.team-title, .portfolio-title {
+  font-weight: 700;
+  font-size: 36px;  
+  /* line-height: 40px; */ 
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--navy-blue);
+}
+
+/**
+  |============================
+  | HEADER-SECTION
+  |============================
+*/
+
+.logo {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 18px;
+  /* line-height: 21px; */ 
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
+}
+
+.logo-header {
+  color: var(--navy-blue);
+}
+
+.nav-list-link {
+  font-weight: 500;
+  font-size: 16px;
+  /* line-height: 24px; */ 
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+.address-header {
+  font-style: normal;
+}
+
+.address-list-link {
+  font-family: var(--font-family);
+  font-weight: 400;
+font-size: 16px;
+
+/* line-height: 24px; */ 
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--slate);
+}
+
+.address-list-link:hover,
+.address-list-link:focus,
+.nav-list-link:hover,
+.nav-list-link:focus {
+  color: var(--OCEAN, #404BBF);
+}
+
+/**
+  |============================
+  | HERO-SECTION
+  |============================
+*/
+
+.hero-section {
+  background-color: var(--navy-blue);
+}
+
+.hero-title {
+  font-weight: 700;
+font-size: 56px;
+
+/* line-height: 60px; */ 
+line-height: 1.07143;
+letter-spacing: 0.02em;
+text-align: center;
+color: var(--white);
+}
+
+.order-button {
+  border-radius: 4px;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: var(--iris);
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--white);
+}
+
+/**
+  |============================
+  | TEAM-SECTION
+  |============================
+*/
+
+.team-section {
+  background-color: var(--cloud);
+}
+
+/**
+  |============================
+  | FOOTER-SECTION
+  |============================
+*/
+
+.footer-section {
+  background-color: var(--navy-blue);
+}
+
+.logo-footer {
+  color: var(--cloud);
+}
+
+.footer-alt-text {
+  font-size: 16px;
+  color: var(--cloud);
+}
