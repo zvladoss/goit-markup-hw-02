@@ -92,7 +92,7 @@ button {
   padding: 0;
 }
 
-img {
+/* img {
   display: block;
   max-width: 100%;
 }
@@ -108,7 +108,7 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
 
 /**
@@ -165,11 +165,11 @@ section {
 */
 
 .logo {
-  font-family: var(--second-family);
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   /* line-height: 21px; */ 
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
