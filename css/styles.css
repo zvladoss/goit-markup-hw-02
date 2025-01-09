@@ -40,8 +40,7 @@ color: #2e2f42;
 }
 
 .nav-list-link:hover, .nav-list-link:focus,
-.address-list-link:hover, .address-list-link:focus,
-.order-button:hover, .order-button:focus {
+.address-list-link:hover, .address-list-link:focus {
   color: #404bbf;
 }
 
@@ -62,7 +61,7 @@ color: #2e2f42;
 }
 
 .hero-title {
-  ont-size: 56px;
+  font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
@@ -79,6 +78,11 @@ color: #2e2f42;
   color: #ffffff;
   cursor: pointer;
 }
+
+.order-button:hover, .order-button:focus {
+  background-color: #404bbf;
+}
+
 
 .features-list-title {
    font-weight: 500;
